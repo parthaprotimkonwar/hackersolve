@@ -1,8 +1,5 @@
 package com.hackersolve.leetcode.tree;
 
-/**
- * Created by pkonwar on 12/15/2016.
- */
 public class PathSum {
 
     /**
