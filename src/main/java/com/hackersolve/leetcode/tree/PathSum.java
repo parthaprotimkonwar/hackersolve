@@ -1,16 +1,15 @@
 package com.hackersolve.leetcode.tree;
 
+/**
+ * Definition for binary tree
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 public class PathSum {
-
-    /**
-     * Definition for binary tree
-     * public class TreeNode {
-     *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode(int x) { val = x; }
-     * }
-     */
 
     //checks if there is a path from the the root to the leaf
     public boolean hasPathSum(TreeNode root, int sum) {
@@ -41,16 +40,5 @@ public class PathSum {
             leaf = true;
         return calculateSum(root.left, updatedValue, leaf)
                         || calculateSum(root.right, updatedValue, leaf);
-    }
-
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
     }
 }
