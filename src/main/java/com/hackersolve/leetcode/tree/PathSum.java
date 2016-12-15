@@ -39,7 +39,8 @@ public class PathSum {
             leaf = false;
         else
             leaf = true;
-        return calculateSum(root.left, updatedValue, leaf) || calculateSum(root.right, updatedValue, leaf);
+        return calculateSum(root.left, updatedValue, leaf)
+                        || calculateSum(root.right, updatedValue, leaf);
     }
 
 }
