@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PascalTriangle {
 
-    //generate pascal triangle
+    //generate pascal triangle till the numRows
     public static List<List<Integer>> generate(int numRows) {
 
         List<List<Integer>> pascalTriangle = new ArrayList<List<Integer>>();
@@ -34,6 +34,7 @@ public class PascalTriangle {
         return pascalTriangle;
     }
 
+    //Driver Program
     public static void main(String[] args) {
         System.out.println(generate(5));
     }
