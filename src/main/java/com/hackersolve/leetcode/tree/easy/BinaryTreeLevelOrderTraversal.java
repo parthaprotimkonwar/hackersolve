@@ -1,4 +1,4 @@
-package com.hackersolve.leetcode.tree;
+package com.hackersolve.leetcode.tree.easy;
 
 import java.util.ArrayList;
 import java.util.List;
