@@ -1,4 +1,4 @@
-package com.hackersolve.leetcode.tree.easy;
+package com.hackersolve.tree.easy.leetcode;
 
 /**
  * Created by pkonwar on 12/15/2016.

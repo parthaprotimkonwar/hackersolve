@@ -1,4 +1,4 @@
-package com.hackersolve.leetcode.tree.easy;
+package com.hackersolve.tree.easy.leetcode;
 
 /**
  * Definition for binary tree
