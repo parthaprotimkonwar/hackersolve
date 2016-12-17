@@ -14,7 +14,9 @@ import java.util.List;
 
 public class PopulateRightPointers {
 
-    public void connect(TreeLinkNode root) {
+    //starting point
+    //connect the nodes in the same level
+    public void connectNodes(TreeLinkNode root) {
         if (root == null)
             return;
         levelOrder(root);
