@@ -31,7 +31,7 @@ public class SymmetricTree {
         } else if (firstTree == null || secondTree == null) {
             return false;
         }
-        //checks if the value of the two nodes are same
+        //the value should be same else not symmetrical
         if (firstTree.val != secondTree.val) {
             return false;
         }
